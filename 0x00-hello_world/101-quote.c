@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main- A program that print some text using fput function
  * Return: 1
