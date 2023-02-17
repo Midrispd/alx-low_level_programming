@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that prints alphabets in lower case uing a putchar
- * function
+ * main - Entry point
  * Return: 0 (Success)
  */
 int main(void)
@@ -14,6 +13,6 @@ int main(void)
 		putchar(c);
 		c++;
 }
-putchar("\n");
-return (0);
+	putchar('\n');
+	return (0);
 }
